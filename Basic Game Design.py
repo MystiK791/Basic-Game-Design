@@ -1,7 +1,6 @@
 import random, time
 try:
-    import pygame, json, math, random, time, os
-    from pygame.draw import line, rect
+    import pygame
 except ImportError:
     os.system('py3 -m pip install pygame')  # Automatically install PyGame
 
