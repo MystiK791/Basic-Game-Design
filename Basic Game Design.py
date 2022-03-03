@@ -1,4 +1,4 @@
-import random, time
+import random, time, os
 try:
     import pygame
 except ImportError:
