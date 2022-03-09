@@ -3,6 +3,7 @@ try:
     import pygame
 except ImportError:
     os.system('py3 -m pip install pygame')  # Automatically install PyGame
+    import pygame
 
 
 from pygame.locals import (
